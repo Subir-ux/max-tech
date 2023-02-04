@@ -743,6 +743,16 @@ img {
   position: relative;
 }
 
+@media (min-width: 1600px) {
+  .slide-content {
+    padding-top: 13%;
+  }
+}
+@media (min-width: 1920px) {
+  .slide-content {
+    padding-top: 12%;
+  }
+}
 .slide-content h1 {
   color: #fff;
   font-size: 65px;
