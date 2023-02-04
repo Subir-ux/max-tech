@@ -1113,7 +1113,9 @@ img {
   padding: 75px 0 51px;
   width: 100%;
 }
-
+.latest-gallery-section {
+  overflow-x: hidden;
+}
 /* Gallery start  */
 
 .portfolio .portfolio-item {

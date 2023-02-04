@@ -1,9 +1,7 @@
 (function ($) {
   ("use strict");
-  /*------------------------------------
-        Call the variable
-    --------------------------------------*/
 
+  //Call the variable
   let win = $(window);
 
   //Function callback
@@ -76,9 +74,7 @@
 
   smallNavFunctionality();
 
-  /*-------------------------------------------
-        Sticky Header
-    --------------------------------------------- */
+  //Sticky Header
 
   let stickyHeader = $(".scrollStickyheader");
   let stickyLogo = $(".navbar-brand");
@@ -93,18 +89,14 @@
     }
   });
 
-  /*==========================================================================
-        WHEN DOCUMENT LOADING
-    ==========================================================================*/
+  //WHEN DOCUMENT LOADING
   $(window).on("load", function () {
     // preloader();
     toggleMobileNavigation();
     smallNavFunctionality();
   });
 
-  /*==========================================================================
-        WHEN WINDOW RESIZE
-    ==========================================================================*/
+  //WHEN WINDOW RESIZE
   $(window).on("resize", function () {
     toggleClassForSmallNav();
 
